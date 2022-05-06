@@ -1,0 +1,122 @@
+body {
+  background: black;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+.ContentDisplay {
+  background: white;
+  color: black;
+  height: 350px;
+  text-align: center;
+  padding: 10px;
+}
+.PostInfo {
+  background: white;
+  color: black;
+  height: 150px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+.Interface {
+  margin: auto;
+  display: flex;
+  padding: 20px;
+  margin-top: 20px;
+}
+.Approve {
+  color: black;
+  background: white;
+  width: 40%;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 40px;
+}
+.Approve:hover {
+  background: green;
+  color: white;
+}
+.Disapprove {
+  color: black;
+  background: white;
+  width: 40%;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 40px;
+}
+.Disapprove:hover {
+  background: rgb(168, 0, 0);
+  color: white;
+}
+.Report {
+  color: red;
+  background: white;
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 50px;
+}
+.Report:hover {
+  background: red;
+  color: white;
+}
+.Tracker {
+  background: white;
+  width: 100%;
+  height: 160px;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px;
+  line-height: 160px;
+}
+.Rewards {
+  background: white;
+  width: 50%;
+  height: 60px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  line-height: 60px;
+  border-radius: 20px;
+}
+.Claim {
+  background: white;
+  width: 50%;
+  height: 20px;
+  margin: auto;
+  margin-top: 60px;
+  text-align: center;
+  padding: 20px;
+  line-height: 20px;
+  border-radius: 20px;
+}
+.Claim:hover {
+  background: green;
+  color: white;
+}
+.Disconnect {
+  background: white;
+  width: 50%;
+  height: 20px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  line-height: 20px;
+  border-radius: 20px;
+}
+.Disconnect:hover {
+  background: red;
+  color: white;
+}

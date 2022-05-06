@@ -1,0 +1,73 @@
+body {
+  background: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+.GroupContainer {
+  display: flex;
+  background: black;
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+}
+.GroupsList {
+  width: 20%;
+  height: 1000px;
+  background: black;
+  border-radius: 20px;
+}
+.Chat {
+  width: 80%;
+  height: 1000px;
+  background: black;
+}
+.Groups {
+  width: 100px;
+  height: 100px;
+  background: #232020;
+  margin: auto;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  border-radius: 60px;
+  text-align: center;
+  line-height: 95px;
+  margin-top: 15px;
+}
+.TextBox {
+  margin: auto;
+  width: 95%;
+  height: 20px;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  line-height: 19px;
+  padding: 15px;
+}
+.Messages {
+  margin: auto;
+  width: 90%;
+  height: 960px;
+  background: #232020;
+  border-radius: 10px;
+  padding: 10px;
+}
+.Message {
+  margin: auto;
+  width: 80%;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  background: white;
+  color: black;
+  border-radius: 20px;
+  line-height: 30px;
+  padding: 20px;
+  text-align: center;
+}
